@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "name": "uxcellence-spin-wheel",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+      "config": {
+        "distDir": "build"
+      }
     }
   ],
   "routes": [
